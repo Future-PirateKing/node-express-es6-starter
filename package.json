@@ -1,7 +1,7 @@
 {
-  "name": "File-Sharing",
+  "name": "",
   "version": "1.0.0",
-  "description": "A file sharing web app",
+  "description": "",
   "main": "dist",
   "scripts": {
     "dev": "nodemon -w src --exec \"babel-node src --presets env,stage-0\"",
@@ -10,17 +10,9 @@
     "prestart": "npm run -s build",
     "test": "eslint src"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Future-PirateKing/File-Sharing.git"
-  },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Future-PirateKing/File-Sharing/issues"
-  },
-  "homepage": "https://github.com/Future-PirateKing/File-Sharing#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
